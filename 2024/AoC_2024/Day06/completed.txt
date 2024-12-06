@@ -1,0 +1,44 @@
+﻿Advent of Code[About][Events][Shop][Settings][Log Out]Dmitrijs Rutko 12*
+   0x0000|2024[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+Our sponsors help make Advent of Code possible:
+Sony Interactive Entertainment - Pushing the boundaries of Play! A O X #
+This is the private leaderboard of Nicholas Robinson for Advent of Code 2024. You can use a different [Ordering], manage your [Private Leaderboards], use an [API], or switch to another [Event].
+
+Gold indicates the user got both stars for that day, silver means just the first star, and gray means none.
+
+        1234567891
+01
+11
+21
+31
+41
+51
+61
+71
+81
+92
+02
+12
+22
+32
+42
+5
+ 1) 219 ******  4rek
+ 2) 194 ******  Andris Sevcenko (AoC++)
+ 3) 182 ******  ivanpesin (AoC++)
+ 4) 178 ******  Dmitrijs Rutko
+ 5) 158 ******  Ilya Levin
+ 6) 144 ******  Vsevolod Sevostianov
+ 7) 128 ******  Nicholas Robinson
+ 8) 122 ******  Eugene Dementjev
+ 9) 117 ******  Tomasz Hanc (AoC++)
+10)  98 ******  Kostiantyn Khoroshailo
+11)  97 ******  vaughany (AoC++)
+12)  94 ******  Alex Terehov
+13)  73 ******  Ratler (AoC++)
+14)  62 ******  Bartosz Drozd
+15)  50 ******  Fedya-L (AoC++)
+16)  29 ******  arthuracs
+17)  22 ******  Igor Savin (AoC++)
+18)  17 ******  Toms Bude
+19)   3 ******  Szymon Chudy
