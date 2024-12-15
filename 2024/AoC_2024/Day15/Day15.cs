@@ -137,8 +137,6 @@ namespace AoC_2024
 
                 map[row + d[0]][col] = '@';
                 map[row][col] = '.';
-
-                return;
             }
             else if (c == '[')
             {
@@ -150,8 +148,6 @@ namespace AoC_2024
 
                 map[row][col] = '.';
                 map[row][col + 1] = '.';
-
-                return;
             }
             else if (c == ']')
             {
@@ -163,8 +159,6 @@ namespace AoC_2024
 
                 map[row][col - 1] = '.';
                 map[row][col] = '.';
-
-                return;
             }
             else
             {
@@ -207,13 +201,13 @@ namespace AoC_2024
         private static long GetSum(List<char[]> map, long width, char box)
         {
             long sum = 0;
-            for (int i = 0; i < map.Count; i++)
+            for (int row = 0; row < map.Count; row++)
             {
-                for (int t = 0; t < map[i].Length; t++)
+                for (int col = 0; col < map[row].Length; col++)
                 {
-                    if (map[i][t] == box)
+                    if (map[row][col] == box)
                     {
-                        sum += i * width + t;
+                        sum += row * width + col;
                     }
                 }
             }
