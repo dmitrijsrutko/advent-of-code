@@ -226,9 +226,6 @@ namespace AoC_2024
             long solve01 = Solve01(map, start, end);
             Console.WriteLine(solve01);
 
-            //long solve02 = Solve02(points, velocities, width, heigth);
-            //Console.WriteLine(solve02);
-
             long elapsed = Environment.TickCount - started;
             Console.WriteLine();
             Console.WriteLine("Elapsed: " + elapsed + " ms");
