@@ -6,7 +6,7 @@ class Program
     {
         try
         {
-            Day15.Run();
+            Day16.Run();
         }
         catch (Exception e)
         {
