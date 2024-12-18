@@ -4,7 +4,7 @@ namespace AoC_2024
 {
 	public class Day18
 	{
-        class Point
+        struct Point
         {
             public int x, y;
 
@@ -17,16 +17,12 @@ namespace AoC_2024
 
         private static long Solve01(List<Point> corruped, int bytes, int width, int height)
         {
-            bool[][] visited = new bool[width][];
-            for (int x = 0; x < width; x++)
-            {
-                visited[x] = new bool[height];
-            }
+            bool[] visited = new bool[width * height];
 
             for (int i = 0; i < bytes; i++)
             {
                 Point point = corruped[i];
-                visited[point.x][point.y] = true;
+                visited[point.x * width + point.y] = true;
             }
 
             Point start = new Point(0, 0);
@@ -44,9 +40,9 @@ namespace AoC_2024
                 {
                     if ((point.x < 0) || (point.x >= width)) continue;
                     if ((point.y < 0) || (point.y >= height)) continue;
-                    if (visited[point.x][point.y]) continue;
+                    if (visited[point.x * width + point.y]) continue;
 
-                    visited[point.x][point.y] = true;
+                    visited[point.x * width + point.y] = true;
                     if ((point.x == end.x) && (point.y == end.y))
                     {
                         return steps;
@@ -134,5 +130,8 @@ namespace AoC_2024
 5,60
 
 Elapsed: 277 ms
+
+Elapsed: 138 ms
+[Optimized - changing from class (reference type) to struct (value type)]
 
  * */
