@@ -6,7 +6,7 @@ class Program
     {
         try
         {
-            Day07.Run();
+            Day08.Run();
         }
         catch (Exception e)
         {
