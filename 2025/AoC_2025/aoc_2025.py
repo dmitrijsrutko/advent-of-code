@@ -1,10 +1,11 @@
-from Day05.Day05 import Day05
+from Day06.Day06 import Day06
+
 import time
 
 if __name__ == "__main__":
 
     start = time.time()
-    day = Day05("05")
+    day = Day06("06")
     day.run()
     end = time.time()
 
